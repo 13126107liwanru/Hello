@@ -1,0 +1,18 @@
+My understanding of formal methods in general and model checking:
+Formal methods = formal specification + formal verification
+Formal specification 
+As part of defect prevention
+Formal => prevent/reduce defect injection due to imprecision, ambiguity, etc
+Briefly covered as related to FV
+Formal verification 
+As part of QA, but focus on positive
+"Prove absence of fault"
+People intensive
+Several commonly used approaches
+Chapter 15 focus on basic ideas
+Model checking
+Behavioral specification via FSMs
+Proposition: property of interest expressed as a suitable formula
+Model checker: algorithm/program to check proposition validity
+Proof: positive result
+Counterexample: negative result
